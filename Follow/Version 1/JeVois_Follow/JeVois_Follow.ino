@@ -15,7 +15,7 @@
  // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  
  // You need to install the Arduino PID Library by Brett Beauregard
- #include <PID_v1.h>
+ #include "src/PID/PID_v1.h"
  #include <Servo.h>
  
  // Pins setup: Use RXLED(17) on Arduino pro micro 32u4 which does not have LED(13)

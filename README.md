@@ -10,6 +10,10 @@ For both versions of my robot I used a L298 motor driver because that is what I 
 Follow: version 1 was based on the code from the JeVois site, with many changes, and did not work correctly. For this robot I didn't use the Tilt function of the robot, the robot used only two wires per motor (not the three wire setup JeVois used), I was able to get the pan to work correctly, but could never get the robot to follow the ArUco Marker.  
 Follow version 2 - was a lot closer to the original JeVois robot, with the biggest difference being a four wheel drive robot chassis. (Which really works like a two wheel drive robot.) For this version I used three wires per motor, (two for direction, and one for speed). I also used the tilt function, which I had to modify the code slightly to get the tilt to follow the marker. The only other small change was pin numbers for the motor (I could have just moved the wires, but easy to change in software). Version 2 appears to work correctly.   
 
+## Libraries
+
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
+
 ## Contributing
 
 1. Fork it!
